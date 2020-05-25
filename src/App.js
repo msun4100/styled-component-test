@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import reset from "styled-reset";
 import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 import theme from "./theme";
 
 const GlobalStyle = createGlobalStyle`
+  ${reset}
   body {
     padding: 0;
     margin: 0;
